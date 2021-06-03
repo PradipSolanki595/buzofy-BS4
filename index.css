@@ -3,5 +3,113 @@ a{
 }
 
 a:hover{
-    color:#af623c ;
+    color:#c97145 ;
 }
+
+.cart_icon:hover{
+    filter: brightness(80%);
+}
+
+.hero{
+    background-image: url(img/hero.png);
+    background-size: cover;
+    height:600px;
+}
+
+h1{
+    font-family: 'Mulish',sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+h2{
+    font-family: 'Mulish',sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+h3{
+    font-family: 'Mulish',sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+h4{
+    font-family: 'Mulish',sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+}
+h5{
+    font-family: 'Mulish',sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h6,{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;    
+}
+
+.primary{
+    border:none ;
+    background-color: #F5874F;
+    color: #ffffff;
+    padding: 8px 24px;
+    border-radius: 8px;
+}
+.primary:hover{
+    border:none ;
+    background-color: #c97145;
+    color: #ffffff;
+    padding: 8px 24px;
+    border-radius: 8px;
+    outline: transparent;
+}
+
+.secondary{
+    border:none ;
+    background-color: #50B7B0;
+    color: #ffffff;
+    padding: 8px 24px;
+    border-radius: 8px;
+}
+.secondary:hover{
+    border:none ;
+    background-color: #459e98;
+    color: #ffffff;
+    padding: 8px 24px;
+    border-radius: 8px;
+    outline: transparent;
+}
+
+button:focus{
+outline:transparent !important;
+}
+
+.features{
+    position: relative;
+}
+
+.feature1_text{
+    top:120px;
+}
+
+#Name, #Contact_no, #subject{
+    width: 100%;
+    padding: 14px 0px 14px 14px;
+    border-radius: 8px;
+    margin-top: 8px;
+    font-family: 'open Sans Pro', sans-serif;
+    font-size:16px;
+    border:1px !important;
+    border-color: #f3f3f3 !important;
+    background-color: #f3f3f3;
+}
+
+#Name:hover, #Contact_no:hover, #subject:hover{
+background-color: #dadada;
+}
+
+#Name:focus-visible, #Contact_no:focus-visible, #subject:focus-visible{
+    border: 1px solid #F5874F!important;
+    background-color: #f6f6f6;
+    outline: transparent;
+    }
